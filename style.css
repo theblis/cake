@@ -480,6 +480,9 @@ img {
 }
 
 /*========== MEDIA QUERIES ==========*/
+.cake_cont{
+    width: 100%;
+}
 
 /* Variables */
 @media screen and (min-width: 768px) {
@@ -628,7 +631,7 @@ img {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 250px;
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -637,7 +640,7 @@ img {
 }
 .card img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
 }
 .card-content {
